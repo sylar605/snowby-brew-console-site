@@ -94,7 +94,7 @@ h1 em { color: var(--green); font-style: normal; }
 .contact-heading .section-kicker { flex-basis: 100%; }
 .contact-heading h2 { margin: 13px 0 0; }
 .contact-heading > p:last-child { margin: 16px 0 0; color: var(--muted); font-size: 14px; }
-.contact-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }
+.contact-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
 .contact-card { min-height: 166px; display: flex; flex-direction: column; justify-content: space-between; padding: 22px; border: 1px solid #d6e0d7; border-radius: 14px; background: rgba(255,255,255,.34); transition: transform .2s ease, background .2s ease, border-color .2s ease; }
 a.contact-card:hover { background: #fffdf8; border-color: #b7cdbb; transform: translateY(-3px); }
 .contact-card strong { margin: 12px 0; font-size: 18px; word-break: break-word; }
